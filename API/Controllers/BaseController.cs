@@ -2,11 +2,10 @@
 
 namespace APi.Controllers
 {
+    [ApiController]
+    [Route("[controller]")]
     public class BaseController : Controller
     {
-        public IActionResult Index()
-        {
-            return View();
-        }
+        
     }
 }
